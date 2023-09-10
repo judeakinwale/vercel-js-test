@@ -2,5 +2,11 @@
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/", "destination": "/public" }
+  ],  
+  "routes": [
+    {
+      "src": "(.*)",
+      "dest": "/"
+    }
   ]
 }
