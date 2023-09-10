@@ -4,10 +4,6 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", function (req, res) {
-    res.status(200).send("Ridge API Works!!!");
-});
-
 //Set static folder
 app.use(express.static(path.join(__dirname, "public")));
 
